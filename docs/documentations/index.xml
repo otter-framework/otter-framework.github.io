@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentations on</title><link>https://doks-child-theme.netlify.app/docs/documentations/</link><description>Recent content in Documentations on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="https://doks-child-theme.netlify.app/docs/documentations/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick Start</title><link>https://doks-child-theme.netlify.app/docs/documentations/quick-start/</link><pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate><guid>https://doks-child-theme.netlify.app/docs/documentations/quick-start/</guid><description>Requirements #
+Git — latest source release Node.js — latest LTS version or newer Why Node.js?
+Doks uses npm (included with Node.js) to centralize dependency management, making it easy to update resources, build tooling, plugins, and build scripts. Start a new Doks project #
+Create a new site, change directories, install dependencies, and start development server.
+Create a new site #
+Doks is available as a child theme and a starter theme.</description></item><item><title>Commands</title><link>https://doks-child-theme.netlify.app/docs/documentations/commands/</link><pubDate>Tue, 13 Oct 2020 15:21:01 +0200</pubDate><guid>https://doks-child-theme.netlify.app/docs/documentations/commands/</guid><description>💡 You can change the commands in the scripts section of `./package.json`. create #
+Create new content for your site:
+npm run create [path] [flags] See also the Hugo docs: hugo new.
+Docs based tree #
+Create a docs based tree — with a single command:
+npm run create -- --kind docs [section] For example, create a docs based tree named guides:
+npm run create -- --kind docs guides lint #
+Check scripts, styles, and markdown for errors:</description></item><item><title>How to Update</title><link>https://doks-child-theme.netlify.app/docs/documentations/how-to-update/</link><pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate><guid>https://doks-child-theme.netlify.app/docs/documentations/how-to-update/</guid><description>
+💡 Learn more about semantic versioning and advanced range syntax. Check for outdated packages #
+The npm outdated command will check the registry to see if any (or, specific) installed packages are currently outdated:
+npm outdated [[&amp;lt;@scope&amp;gt;/]&amp;lt;pkg&amp;gt; ...] Update packages #
+The npm update command will update all the packages listed to the latest version (specified by the tag config), respecting semver:
+npm update [&amp;lt;pkg&amp;gt;...]</description></item><item><title>Troubleshooting</title><link>https://doks-child-theme.netlify.app/docs/documentations/troubleshooting/</link><pubDate>Thu, 12 Nov 2020 15:22:20 +0100</pubDate><guid>https://doks-child-theme.netlify.app/docs/documentations/troubleshooting/</guid><description>Problems updating npm packages #
+Delete the ./node_modules folder, and run again:
+npm install Problems with cache #
+Delete the temporary directories:
+npm run clean</description></item><item><title>Otter API</title><link>https://doks-child-theme.netlify.app/docs/documentations/otter-api/</link><pubDate>Tue, 06 Oct 2020 08:49:15 +0000</pubDate><guid>https://doks-child-theme.netlify.app/docs/documentations/otter-api/</guid><description/></item></channel></rss>
