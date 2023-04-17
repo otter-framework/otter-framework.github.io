@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://otter-framework.github.io/sitemap.xml
+Sitemap: https://otter-framework.dev/sitemap.xml
